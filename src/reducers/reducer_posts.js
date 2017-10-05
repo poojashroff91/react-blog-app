@@ -1,12 +1,12 @@
-import { FETCH_POSTS } from '../actions';
+import _ from "lodash";
+import { FETCH_POSTS } from "../actions";
 
-export default function(state = {}, action){
-    switch(action.type){
+export default function(state = {}, action) {
+  switch (action.type) {
+    case FETCH_POSTS:
+      return _.mapKeys(action.payload.data, "id"); // [post1, post2] Need to convert array to object (lodash)
 
-        case FETCH_POSTS: 
-            console.log(action.payload.data); // [post1, post2] Need to convert array to object (lodash)
-
-        default:
-        return state;
-    }
+    default:
+      return state;
+  }
 }
