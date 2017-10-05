@@ -23,3 +23,8 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm install
 > npm start
 ```
+
+
+#Pooja's notes
+It is important to use this version of react - "15.3.2",
+ 
