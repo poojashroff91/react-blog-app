@@ -28,3 +28,9 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 #Pooja's notes
 It is important to use this version of react - "15.3.2",
  
+
+ 1. Scaffold a component
+ 2. Add route configuration
+ 3. Add navigation between index and  new
+ 4. Add form to PostsNew
+5.  Make action creator to save post
